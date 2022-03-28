@@ -54,9 +54,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+# "https://nextjs-blog-todos-rho-steel.vercel.app",
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000", "https://nextjs-blog-todos-rho-steel.vercel.app",
+    "http://localhost:3000",
 ]
 
 SIMPLE_JWT = {
